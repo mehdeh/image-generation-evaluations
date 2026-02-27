@@ -126,12 +126,3 @@ Edit `config/default.yaml` or pass `--config path/to/config.yaml`. Reference pat
 
 Please comply with the respective licenses of any code you use or redistribute.
 
----
-
-## Suggested Repository Name
-
-**`gen-image-eval`** or **`image-generation-evaluations`**
-
-## Suggested GitHub Description
-
-> Unified toolkit for evaluating generated images: FID, Inception Score, sFID, Precision, Recall, FD_DINOv2. Auto-downloads references and models. PyTorch-first with optional TensorFlow support.
