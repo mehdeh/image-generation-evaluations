@@ -1,0 +1,13 @@
+# Evaluation configuration for image generation metrics
+# Reference: https://github.com/NVlabs/edm, https://github.com/openai/guided-diffusion
+
+evaluation:
+  # Reference files - check fid-refs/ and pretrain_models/ first; download if missing
+  fid_ref: "https://nvlabs-fi-cdn.nvidia.com/edm/fid-refs/cifar10-32x32.npz"
+  evaluator_ref: "./fid-refs/cifar_dataset_50000.npz"
+  pytorch_fid_ref: "https://nvlabs-fi-cdn.nvidia.com/edm/fid-refs/cifar10-32x32.npz"
+  calculate_metrics_ref: "https://nvlabs-fi-cdn.nvidia.com/edm/fid-refs/cifar10-32x32.npz"
+  calculate_metrics_ref_full: "./fid-refs/cifar10_calculate_metrics.pkl"
+
+  fid_num_expected: 50000
+  save_results: true

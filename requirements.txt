@@ -1,0 +1,13 @@
+torch>=1.13.0
+torchvision>=0.14.0
+numpy>=1.21.0
+Pillow>=9.0.0
+click>=8.0.0
+tqdm>=4.62.0
+PyYAML>=6.0
+scipy>=1.7.0
+requests>=2.28.0
+# Optional: for --evaluator (TensorFlow)
+# tensorflow>=2.10.0
+# Optional: for --pytorch-fid
+# pytorch-fid>=0.3.0
